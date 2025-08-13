@@ -1,26 +1,18 @@
-# PV Variantenvergleich Web App
+# Qrauts PV Variantenvergleich — Branding integriert
 
-Diese Webanwendung vergleicht drei PV-Geschäftsmodelle aus Sicht der WG UNITAS:
-- **Dachpachtmodell**
-- **Anlagenpachtmodell**
-- **Lieferkettenmodell**
-
-## Features
-- Dynamische Eingabe aller relevanten Parameter (Anlagengröße, Erträge, Preise, Teilnehmerquote, etc.)
-- Sofortige Berechnung der Wirtschaftlichkeit je Modell
-- CO₂-Gutschriftberechnung für das Gebäude
-- Grafische Darstellung der Ergebnisse
-- Export als Excel-Datei
+Diese Version ist mit dem Qrauts-Logo (Pfad: `/mnt/data/image001[2925294].png`) vorkonfiguriert und leitet automatisch eine Farbpalette ab.
+Die Farben können in der Sidebar per Color-Picker angepasst werden. Optional kann auch ein anderes Logo hochgeladen werden.
 
 ## Installation
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_qrauts.txt
 ```
 
 ## Start
 ```bash
-streamlit run app_pv_varianten.py
+streamlit run app_pv_varianten_qrauts.py
 ```
 
-## Lizenz
-MIT License
+## Hinweise
+- Diagramme verwenden Standardfarben von matplotlib (keine expliziten Farbvorgaben).
+- Das Branding wird per CSS injiziert (Primär-/Sekundär-/Text-/Hintergrundfarben).
