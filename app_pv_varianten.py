@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="PV-Variantenvergleich", layout="wide")
 
-st.title("Qrauts AG PV-Variantenvergleich für Genossenschaften//Version1.0 Unitas")
+st.title("baetz energy GmbH PV-Variantenvergleich für Genossenschaften//Version1.0 Unitas")
 st.caption("Dachpachtmodell · Anlagenpachtmodell · Lieferkettenmodell — mit CO₂-Gutschrift für das Gebäude")
 
 with st.expander("Methodik & Annahmen", expanded=False):
